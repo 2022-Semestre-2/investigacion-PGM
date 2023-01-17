@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProxyInternet implements Internet{
-    private Internet internet = new RealInternet();
+    private Internet internet = new InternetReal();
     private static List<String> sitiosBaneados;
       
     static

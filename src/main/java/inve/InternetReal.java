@@ -1,6 +1,6 @@
 package inve;
 
-public class RealInternet implements Internet{
+public class InternetReal implements Internet{
     @Override
     public void conectarse(String serverhost)
     {
